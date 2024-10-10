@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module comp_tb #(parameter N = 8);
     reg [N-1:0] in0, in1;
     wire gt, eq, lt;

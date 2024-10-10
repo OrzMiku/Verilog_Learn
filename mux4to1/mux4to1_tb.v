@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module mux4to1_tb;
     reg in0, in1, in2, in3, s1, s0;
     output out;
