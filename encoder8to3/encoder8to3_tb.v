@@ -2,10 +2,12 @@
 module encoder8to3_tb;
     reg [7:0] in;
     wire [2:0] out;
+    wire valid;
 
     encoder8to3 encoder8to3_inst (
         .in(in),
-        .out(out)
+        .out(out),
+        .valid(valid)
     );
 
     initial begin
