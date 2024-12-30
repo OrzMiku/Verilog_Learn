@@ -18,7 +18,6 @@ edge_test u_edge_test(
     .clk(clk),
     .rst_n(rst_n),
     .a(ctrl),
-    .a_posedge(cnt_ctrl),
     .a_negedge(cnt_ctrl_negedge),
 );
 
